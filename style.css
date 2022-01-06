@@ -34,12 +34,14 @@ h1{
     padding: 5px;
     font-weight: 700;
 }
+.para{
+    padding-left: 40px;
+}
 p{
     color: rgb(228, 219, 186);
-    padding: 40px;
+    padding: 5px;
     padding-top: 1%;
-    font-size: 20px;
-
+    font-size: 14px;
 }
 .btn-1{
     padding: 10px 20px;
@@ -48,3 +50,75 @@ p{
     background-color: goldenrod;
     border-radius: 5px;
 }
+.item-info{
+    display: flex;
+    width: 90%;
+    padding-left:50px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.food-cart{
+    height: 10%;
+    width: 30%;
+}
+.food-item{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+h4{
+    font-size: 14px;
+    color: burlywood;
+}
+h3{
+    font-size: 14px;
+    color:rgb(201, 198, 206);
+}
+.Mission{
+    border:linear-gradient(blue,rgb(117, 23, 117)) solid ;
+    background-image: linear-gradient(blue,rgb(117, 23, 117));
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.Vision{
+    border: linear-gradient(#02638a,#10b8fa) solid ;
+    background-image: linear-gradient(#f552e7,#ba98c2);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.Goals{
+    border:linear-gradient(#bb33ff,#884dff) solid ;
+    background-image:linear-gradient(#bb33ff,#884dff);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 5px;
+}
+a{
+background-color: rgb(156, 131, 246);
+padding: 10px 10px;
+text-decoration: none;
+color: rgb(33, 6, 65);
+border-radius: 10px;
+font-size: 18px;
+}
+.my-mission{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
